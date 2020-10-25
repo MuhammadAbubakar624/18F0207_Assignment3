@@ -1,0 +1,155 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    background-image: url(back2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+   
+}
+.header{
+    background-color:#F2CB05;
+    color: black;
+}
+.menu ul,li,a{
+list-style: none;
+text-decoration: none;
+display: inline;
+color: black;
+display: flex;
+font-size: 25px;
+padding: 6px 6px 6px 20px;
+}
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#logo{
+    font-style: italic;
+    text-shadow: white;
+}
+.box1{
+    margin:5% 15% 0% 15%;
+    padding-top: 5%;
+    background-color:#F2CB05;
+}
+h1{
+    text-align: center;
+}
+.box1 form{
+    font-size: 20px;
+    padding: 5% 0% 5% 15%;
+}
+.box1 form input{
+    width: 30%;
+    padding-left:  5%;
+}
+#bt{
+    position: relative;
+    left: 26%;
+    margin-top: 4%;
+}
+
+#time{
+    font-size: 100px;
+    padding-left: 28%;
+}
+.btnlist ul{
+    display: flex;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 35px;
+  }
+ 
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    border-radius: 35px;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 35px;
+  }
+  
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 35px;
+  }
+  
+  .button4:hover {background-color: #e7e7e7;}
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    border-radius: 35px;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  .box2{
+      position: relative;
+    margin:5% 15% 5% 15%;
+    width: 945px;
+    height: 600px;
+    background-color: #0528F2;
+  }
+  #splitlist{
+      padding-bottom: 3%;
+  }
+#splitlist li{
+   margin-left: 42%;
+}
+#active{
+  color: white;
+}
+
+#section-footer{
+  padding: 20px;
+  font-size: 15px;
+  background-color:#F2CB05 ;
+}
